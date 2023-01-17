@@ -34,6 +34,9 @@
 }
 
 .galaxy-con img {
+  width: 100%;
+  min-height: 55vh;
+  object-fit: cover;
   position: absolute;
   transition: transform 0.4s ease-out;
 }

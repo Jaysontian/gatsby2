@@ -31,7 +31,7 @@ if (typeof document !== `undefined`) {
       var speed = layer.getAttribute("data-speed")
       var x = (window.innerWidth - e.pageX * speed) / 100
       var y = (window.innerHeight - e.pageY * speed) / 100
-      console.log(x, y)
+      //console.log(x, y)
 
       layer.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
