@@ -3,8 +3,11 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
+import Galaxy from "../components/galaxy"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
+
+import profileImage from "../images/pfp.png"
 
 const links = [
   {
@@ -71,6 +74,57 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
+    <Galaxy></Galaxy>
+    <h1 className={styles.titletext}>
+      Hi! This is Jayson <span className={styles.wave}>👋</span>
+    </h1>
+    <div className={styles.galaxysource}>
+      → How I made this interactive piece
+    </div>
+    <div className={styles.titlecaption}>
+      <p>
+        I am a UCLA student, coder, designer, artist, and neuroscience geek.
+      </p>
+    </div>
+    <div
+      className={styles.nextslide}
+      onClick={() => {
+        window.location.href = "#about"
+      }}
+    >
+      <div>
+        <p>Learn more</p>
+        <p>↓</p>
+      </div>
+    </div>
+    <div></div>
+    <div
+      className={styles.aboutcon}
+      id="about"
+      style={{
+        height: `100vh`,
+        paddingTop: `100px`,
+        scrollSnapAlign: `start`,
+      }}
+    >
+      <h1>About</h1>
+      <div className={styles.flexcon}>
+        <p>
+          Kachow! I am currently a first year computer science and pre-cognitive
+          science student at UCLA. I am interested in exploring how user
+          interaction and design intersects with a variety of fields, such as
+          consumer behavior, social psychology, and artistic mediums.<br></br>
+          <br></br>I’m passionate about education, arts & culture, and
+          innovation. In my downtime, I like to research, build, and create very
+          questionable things that vary in subject matter – I write a blog, draw
+          webcomics, design experiments, compose music, and I particularly enjoy
+          creating apps (and websites like this). In addition, I'm a bubble tea
+          fanatic and a blossoming bartender.
+        </p>
+        <img src={profileImage}></img>
+      </div>
+    </div>
+    {/*
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
@@ -103,7 +157,7 @@ const IndexPage = () => (
             className={styles.listItemLink}
             href={`${link.url}${utmParameters}`}
           >
-            {link.text} ↗
+            {link.text}
           </a>
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
@@ -115,6 +169,8 @@ const IndexPage = () => (
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))}
+
+     */}
   </Layout>
 )
 

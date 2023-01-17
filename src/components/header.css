@@ -1,0 +1,48 @@
+main {
+  margin-top: 10px;
+}
+
+header {
+  background-color: rgba(255, 17, 17, 0);
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 15px;
+
+  mix-blend-mode: color-dodge;
+}
+
+.header-con {
+  width: 100%;
+  max-width: var(--size-content);
+  margin: 0px auto;
+}
+
+.link-con {
+  width: fit-content;
+  background-color: rgba(0, 0, 255, 0);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+header a,
+header span {
+  text-transform: uppercase;
+  font-size: 20pt;
+  color: #bcbcbc;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #e2e2e2;
+}
+
+header span {
+  color: rgb(147, 147, 147);
+  font-size: 20pt;
+  padding: 0px 5px;
+}

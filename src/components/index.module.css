@@ -1,7 +1,150 @@
+.galaxysource {
+  font-size: 16pt;
+  font-weight: 450;
+  text-align: right;
+  color: rgb(184, 184, 184);
+  margin-top: -2.75rem;
+  z-index: 1;
+  padding-right: 15px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.galaxysource:hover {
+  color: white;
+}
+
+.titletext {
+  font-size: 60pt;
+  font-weight: 500;
+  color: white;
+  padding-left: 6vw;
+  padding-bottom: 40px;
+  margin-top: -11rem;
+  text-shadow: 0px 0px 0px white;
+  animation: glow 2500ms linear infinite 2000ms;
+  z-index: 1;
+}
+
+.titletext span {
+  text-shadow: none;
+  font-size: 40pt;
+}
+
+.titlecaption {
+  padding-left: 6vw;
+  margin-top: 45px;
+}
+
+.titlecaption p {
+  font-size: 20pt;
+  color: white;
+}
+
+.nextslide {
+  width: 100%;
+  margin-top: 100px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.nextslide div {
+  margin: auto;
+  width: fit-content;
+  font-size: 18pt;
+  color: white;
+  text-align: center;
+}
+.nextslide div p {
+  margin: 0px 0px;
+}
+.nextslide div p:first-child {
+  border-bottom: solid 2px rgba(189, 189, 189, 0.631);
+}
+
+.nextslide:hover {
+  opacity: 1;
+}
+
+/* ABOUT CON ***********/
+
+.aboutcon {
+  padding-left: 6vw;
+}
+
+.aboutcon h1 {
+  font-size: 40pt;
+  font-weight: 500;
+  margin-top: 25px;
+  color: white;
+}
+
+.aboutcon p {
+  margin-top: 125px;
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.flexcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutcon img {
+  width: 300px;
+  height: 300px;
+  margin: 50px 15px;
+  margin-right: 7vw;
+  margin-top: 100px;
+  border: 7px solid rgb(59, 59, 59);
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 4px #fff;
+  }
+}
+
+/* WAVING IMPLEMENTATION */
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*
 .list {
   display: grid;
   margin: 0;
-  /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
   --w: 280px;
   --n: 2;
   gap: var(--size-gap);
@@ -52,3 +195,4 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+*/
