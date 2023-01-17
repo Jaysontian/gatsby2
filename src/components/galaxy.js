@@ -1,11 +1,11 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
-import layer1 from "../images/layer1.jpg"
-import layer2 from "../images/layer2.png"
-import layer3 from "../images/layer3.png"
-import layer4 from "../images/layer4.png"
-import layer5 from "../images/layer5.png"
+import layer1 from "../images/layer1.webp"
+import layer2 from "../images/layer2.webp"
+import layer3 from "../images/layer3.webp"
+import layer4 from "../images/layer4.webp"
+import layer5 from "../images/layer5.webp"
 
 import "./galaxy.css"
 

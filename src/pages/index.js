@@ -7,7 +7,7 @@ import Galaxy from "../components/galaxy"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-import profileImage from "../images/pfp.png"
+import profileImage from "../images/pfp.webp"
 
 const links = [
   {
