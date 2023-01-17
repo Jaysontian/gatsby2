@@ -23,23 +23,25 @@ const Galaxy = () => (
   </div>
 )
 
-document.addEventListener("mousemove", parallax)
-document.addEventListener("mouseleave", restore)
-function parallax(e) {
-  this.querySelectorAll(".layer").forEach(layer => {
-    var speed = layer.getAttribute("data-speed")
-    var x = (window.innerWidth - e.pageX * speed) / 100
-    var y = (window.innerHeight - e.pageY * speed) / 100
-    console.log(x, y)
+if (typeof document !== `undefined`) {
+  document.addEventListener("mousemove", parallax)
+  document.addEventListener("mouseleave", restore)
+  function parallax(e) {
+    this.querySelectorAll(".layer").forEach(layer => {
+      var speed = layer.getAttribute("data-speed")
+      var x = (window.innerWidth - e.pageX * speed) / 100
+      var y = (window.innerHeight - e.pageY * speed) / 100
+      console.log(x, y)
 
-    layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-  })
-}
-function restore() {
-  this.querySelectorAll(".layer").forEach(layer => {
-    layer.transition = "transform 0.6s ease-in-out"
-    layer.style.transform = `translateX(0px) translateY(0px)`
-  })
+      layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
+  }
+  function restore() {
+    this.querySelectorAll(".layer").forEach(layer => {
+      layer.transition = "transform 0.6s ease-in-out"
+      layer.style.transform = `translateX(0px) translateY(0px)`
+    })
+  }
 }
 
 export default Galaxy
