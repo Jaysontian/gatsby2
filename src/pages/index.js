@@ -78,7 +78,13 @@ const IndexPage = () => (
     <h1 className={styles.titletext}>
       Hi! This is Jayson <span className={styles.wave}>👋</span>
     </h1>
-    <div className={styles.galaxysource}>
+    <div
+      className={styles.galaxysource}
+      onClick={() => {
+        window.location.href =
+          "https://jtian.notion.site/Parallax-Art-83d69096a0af4c68b7abaf515ccdbc24"
+      }}
+    >
       → How I made this interactive piece
     </div>
     <div className={styles.titlecaption}>

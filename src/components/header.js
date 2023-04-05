@@ -15,13 +15,8 @@ const navlinks = [
   },
   {
     text: "Projects",
-    url: "#project",
+    url: "https://jaysontian.github.io/work/",
     id: 3,
-  },
-  {
-    text: "Connect",
-    url: "#contact",
-    id: 4,
   },
 ]
 const connectlinks = [
