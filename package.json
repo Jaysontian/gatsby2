@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Jayson Tian",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Jayson's Personal Website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jayson Tian jaysontian444@gmail.com",
   "dependencies": {
     "gatsby": "^5.4.1",
     "gatsby-plugin-image": "^3.4.0",

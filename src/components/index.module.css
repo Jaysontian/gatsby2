@@ -38,7 +38,7 @@
 
 .titlecaption p {
   font-size: 20pt;
-  color: white;
+  color: var(--color-text);
 }
 
 .nextslide {
@@ -51,7 +51,7 @@
   margin: auto;
   width: fit-content;
   font-size: 18pt;
-  color: white;
+  color: var(--color-text);
   text-align: center;
 }
 .nextslide div p {

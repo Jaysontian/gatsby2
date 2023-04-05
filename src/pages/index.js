@@ -83,7 +83,8 @@ const IndexPage = () => (
     </div>
     <div className={styles.titlecaption}>
       <p>
-        I am a UCLA student, coder, designer, artist, and neuroscience geek.
+        I am a UCLA student, software developer, artist, coffee barista, and
+        neuroscience geek.
       </p>
     </div>
     <div
@@ -110,16 +111,22 @@ const IndexPage = () => (
       <h1>About</h1>
       <div className={styles.flexcon}>
         <p>
-          Kachow! I am currently a first year computer science and pre-cognitive
-          science student at UCLA. I am interested in exploring how user
-          interaction and design intersects with a variety of fields, such as
-          consumer behavior, social psychology, and artistic mediums.<br></br>
+          Hey there! I'm currently a first year student studying cognitive
+          science and computer science at UCLA. I am specifically interested in
+          exploring the intersection between machines, software, and human
+          behaviour.
+          <br></br>
           <br></br>I’m passionate about education, arts & culture, and
-          innovation. In my downtime, I like to research, build, and create very
-          questionable things that vary in subject matter – I write a blog, draw
-          webcomics, design experiments, compose music, and I particularly enjoy
-          creating apps (and websites like this). In addition, I'm a bubble tea
-          fanatic and a blossoming bartender.
+          entrepreneurship. In my downtime, I like to research, build, and
+          create very questionable things that vary in subject matter – I write
+          a blog, publish a webcomic, design neuroscience experiments, compose
+          music, and I particularly enjoy developing apps (and websites like
+          this). In addition, I'm a coffee and boba fanatic and a blossoming
+          barista.
+          <br></br>
+          <br></br>
+          Don't hesitate to reach out, I'm always down to chat! <br></br>(or
+          discuss creative drink ideas!)
         </p>
         <img src={profileImage}></img>
       </div>

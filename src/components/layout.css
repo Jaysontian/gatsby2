@@ -1,6 +1,6 @@
 :root {
   --border-radius: 4px;
-  --color-text: rgb(197, 197, 197);
+  --color-text: rgb(213, 213, 213);
   --color-text-light: rgb(173, 173, 173);
   --color-primary: #5481ff;
   --color-code-bg: #fff4db;
@@ -33,7 +33,7 @@ html {
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(19, 19, 19);
   scroll-behavior: smooth;
 
   scroll-snap-type: y mandatory;
