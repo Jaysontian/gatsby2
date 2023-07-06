@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd30c07d.css",
+    "main.js": "/static/js/main.3e9cd923.js",
+    "static/media/mapify1.png": "/static/media/mapify1.039fc090444cdc3f4807.png",
+    "static/media/layer3.webp": "/static/media/layer3.2689ed0b5223ab02b69e.webp",
+    "static/media/layer5.webp": "/static/media/layer5.70ab98237cd97e3f66e2.webp",
+    "static/media/layer2.webp": "/static/media/layer2.c69b20ddb03475d30f17.webp",
+    "static/media/mapify.png": "/static/media/mapify.da63ee1d998a2562f3f5.png",
+    "static/media/mocha.png": "/static/media/mocha.1d8442ab74180f95673e.png",
+    "static/media/matcha1.webm": "/static/media/matcha1.c2032c60f4d301f4983f.webm",
+    "static/media/godot.png": "/static/media/godot.2d1ad102581567d49bdb.png",
+    "static/media/matcha2.png": "/static/media/matcha2.13fa031107744f618086.png",
+    "static/media/matcha.png": "/static/media/matcha.e667c1778d3da666f897.png",
+    "static/media/layer4.webp": "/static/media/layer4.81655a70c28266c52b37.webp",
+    "static/media/milkcorp.png": "/static/media/milkcorp.f333f398f1cb6902074e.png",
+    "static/media/rpg-demo.webm": "/static/media/rpg-demo.571ce89df284e34d7655.webm",
+    "static/media/layer1.webp": "/static/media/layer1.ba68177a02b7fe80616c.webp",
+    "static/media/cow.png": "/static/media/cow.0abee4c945fcbb6aa153.png",
+    "index.html": "/index.html",
+    "main.bd30c07d.css.map": "/static/css/main.bd30c07d.css.map",
+    "main.3e9cd923.js.map": "/static/js/main.3e9cd923.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd30c07d.css",
+    "static/js/main.3e9cd923.js"
+  ]
+}
